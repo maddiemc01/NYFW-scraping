@@ -1,6 +1,7 @@
-class user
-
-
+class User
+  def initialize(day, events_)
+        @day = day
+        @event = event
     # 1 pick a valid date
     def valid_day(day)
          day = (4..12)
