@@ -7,6 +7,7 @@ class Cli
 
   def call
     puts "please enter a day of february, ranging from the 4th to the 12th."
+   # binding.pry
   end
 
   def valid_day(day)
@@ -14,13 +15,15 @@ class Cli
     binding.pry
   end
 
-  def events (day)
+  def events(day)
     input = gets.stip
-    if valid_date && input = 4
+    if input == 4
       # display M MISSONI
-    elsif valid_date && input = 5
+    elsif input == 5
       #display L'AGNENCE
-    elsif valid_date &&
+    elsif input == 6
+      #display MUKZIN x HARBIN, FASHION HONG KONG, TADASHI SHOJI, CHRISTIAN SIRIANO, VISTOR GLEMAUD, OQLIQ
+    elsif input == 7
     else
       puts "sorry, there are no events for that day, please enter a different day"
     end
@@ -28,6 +31,7 @@ class Cli
 
   def info
     puts "please select an event to learn more about it"
+  end
 
 
 end

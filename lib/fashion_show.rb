@@ -3,13 +3,16 @@
 
 class Event
   def initialize
+  end
 
     # 1 pick a valid date
-    def valid_day(day)
-         day = (4..12)
-         binding.pry
+    def when
     end
 
+    def who
+    end
+
+end
 
 
     # 3 pick an event
