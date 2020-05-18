@@ -2,14 +2,14 @@ class user
 
 
     # 1 pick a valid date
-    def valid_date(day)
+    def valid_day(day)
          day = (4..12)
     end
 
-    def date (day)
+    def day (day)
         puts "please enter a day of february, ranging from the 4th to the 12th."
         input = gets.stip
-        if valid_date
+        if valid_date && input = 4
             # display event(s) for that date
         else
             puts "sorry, there are no events for that day, please enter a different day"
