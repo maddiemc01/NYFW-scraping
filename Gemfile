@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem 'httparty'
 gem 'pry'
-gem 'nokogiri', '1.10.8'
-gem 'robocop'
+gem 'nokogiri'
+gem 'require_all'
+gem 'rubocop'
